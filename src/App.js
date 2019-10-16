@@ -1,6 +1,8 @@
 import React from "react";
 import { Grid } from "material-ui";
 
+import { SearchBar, VideoList, VideoDetail } from "./components";
+
 import YouTube from "./api/youtube";
 
 import "./App.css";
