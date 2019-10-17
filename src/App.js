@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 
-import { SearchBar, VideoDetail } from "./components";
+import { SearchBar, VideoDetail, VideoList } from "./components";
 
 import youtube from "./api/youtube";
 
@@ -49,6 +49,7 @@ class App extends React.Component {
               </Grid>
               <Grid item xs={4}>
                 {/* Video list */}
+                <VideoList />
               </Grid>
             </Grid>
           </Grid>
