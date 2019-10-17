@@ -32,7 +32,7 @@ class App extends React.Component {
   };
 
   render() {
-    const { selectedVideo } = this.state;
+    const { selectedVideo, videos } = this.state;
 
     return (
       <div className="App">
@@ -49,7 +49,7 @@ class App extends React.Component {
               </Grid>
               <Grid item xs={4}>
                 {/* Video list */}
-                <VideoList />
+                <VideoList videos={videos} />
               </Grid>
             </Grid>
           </Grid>
